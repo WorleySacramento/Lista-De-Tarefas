@@ -4,10 +4,45 @@
     box-sizing: 0;
 }
 
+body{
+    background-color: #5f6a995d;
+}
+
+
 .bNavegacao{
-    background-color: rgb(144, 185, 144);
+    background-color: #01aa9c;
     color: white;
 }
-a{
-    color: wheat;
+
+.link-naveg{
+    color: white;
+    font-weight: bold;
+}
+
+.formsearch{
+    margin-left: 15px;
+}
+
+.conteudo{
+    margin-top: 20px;
+    display: grid; 
+    justify-content: center;
+
+
+}
+
+#cartao{
+    width: 230px;
+    height: 100px;
+}
+
+
+.cardDash{
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+}
+.cardTitle{
+    color: white;
+    background-color: #01aa9c91;
 }

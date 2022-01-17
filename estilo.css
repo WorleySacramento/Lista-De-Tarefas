@@ -1,0 +1,12 @@
+.fundovermelho,
+.fundoazul{
+ margin-bottom: 10px;
+}
+
+.fundovermelho{
+ background: red;
+}
+
+.fundoazul{
+    background: blue;
+}

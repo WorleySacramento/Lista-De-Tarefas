@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista De Tarefas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
+
 <body>
     <header class=" d-flex justify-content-center">
         <div class="d-flex">
             <h2>Lembretes</h2>
         </div>
     </header>
-    <div>
-        <nav class="bNavegacao navbar">
+
+    <div class="container">
+        <nav class="bNavegacao navbar navbar-collapse ">
             <ul class=" nav">
-                <li class=" nav-item" >
-                    <div> <a class=" nav-link"  href="#">Inicial</a></div>
-                   
+                <li class=" nav-item ">
+                    <a class=" link-naveg nav-link" href="#">Inicial</a>
                 </li>
-                <li class=" nav-item">
-                    <a class=" nav-link" href="#">Dia a Dia</a>
+                <li class=" nav-item ">
+                    <a class="link-naveg nav-link" href="#">Dia a Dia</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contas</a>
+                <li class="nav-item dropdown">
+                    <a class="link-naveg dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown"
+                        href="#">Cadastro de Despesas</a>
+                    <ul class="dropdown-menu form-control-sm">
+                        <li><a href="" class="dropdown-item">Cartão</a></li>
+                        <li><a href="" class="dropdown-item"></a></li>
+                        <li><a href="" class="dropdown-item"></a></li>
+                        <li><a href="" class="dropdown-item"></a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cartões</a>
+                <li class="nav-item ">
+                    <a class="link-naveg nav-link" href="#">Cartões</a>
                 </li>
 
-               
+
             </ul>
-            <div>
-                <form class="d-flex">
+            <div class="">
+                <form class="d-flex form formsearch">
                     <input class="form-control-sm me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                    <button class="btn btn-sm btn-info fa fa-search" type="submit"></button>
+                </form>
             </div>
         </nav>
-    </div>
 
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="conteudo row">
+            <div class="col">
+                <div class="row">
+                    <div class="col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
+                        <h4 class="cardTitle">Receita</h4>
+
+                    </div>
+                    <br>
+                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
+                        <h4 class="cardTitle">Receita</h4>
+
+                    </div>
+                    <br>
+                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
+                        <h4 class="cardTitle">Receita</h4>
+
+                    </div>
+                    <br>
+                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
+                        <h4 class="cardTitle">Receita</h4>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
