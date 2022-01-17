@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.bNavegacao{
+    background-color: rgb(144, 185, 144);
+    color: white;
+}
+a{
+    color: wheat;
+}
