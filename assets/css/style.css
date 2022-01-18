@@ -4,14 +4,30 @@
     box-sizing: 0;
 }
 
+.lembrete{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-style: italic;
+
+    background: rgb(9,94,24);
+    background: -moz-linear-gradient(147deg, rgba(9,94,24,1) 51%, rgba(174,179,65,0.6783088235294117) 100%);
+    background: -webkit-linear-gradient(147deg, rgba(9,94,24,1) 51%, rgba(174,179,65,0.6783088235294117) 100%);
+    background: linear-gradient(147deg, rgba(9,94,24,1) 51%, rgba(174,179,65,0.6783088235294117) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#095e18",endColorstr="#aeb341",GradientType=1);
+
+}
+
 body{
-    background-color: #5f6a995d;
+    background:linear-gradient(to right, rgba(255,0,0,0), rgb(3, 158, 24));
+    
 }
 
 
 .bNavegacao{
     background-color: #01aa9c;
-    color: white;
+    color: white;;
+    border-radius: 10px;
 }
 
 .link-naveg{
@@ -32,10 +48,19 @@ body{
 }
 
 #cartao{
-    width: 230px;
-    height: 100px;
+   
+    
+    background: white;
+    border-radius: 50px ;
+    margin-right: 5px;
 }
 
+.dentrocartao{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .cardDash{
     background-color: aliceblue;
@@ -44,5 +69,14 @@ body{
 }
 .cardTitle{
     color: white;
-    background-color: #01aa9c91;
+    background-color: #095e1e;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+#formulario{
+    width: 400px;
+    display: inline-flex;
+    
 }

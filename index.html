@@ -16,11 +16,11 @@
 
 <body>
     <header class=" d-flex justify-content-center">
-        <div class="d-flex">
-            <h2>Lembretes</h2>
+        <div class="d-flex lembrete">
+            <h2>Gerenciamento Financeiro</h2>
         </div>
     </header>
-
+<br>
     <div class="container">
         <nav class="bNavegacao navbar navbar-collapse ">
             <ul class=" nav">
@@ -34,8 +34,8 @@
                     <a class="link-naveg dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown"
                         href="#">Cadastro de Despesas</a>
                     <ul class="dropdown-menu form-control-sm">
-                        <li><a href="" class="dropdown-item">Cartão</a></li>
-                        <li><a href="" class="dropdown-item"></a></li>
+                        <li><a href="./pages/cad_cartao.html" class="dropdown-item">Cartão</a></li>
+                        <li><a href="./pages/cad_gasto_semanal.html" class="dropdown-item">Gastos</a></li>
                         <li><a href="" class="dropdown-item"></a></li>
                         <li><a href="" class="dropdown-item"></a></li>
                     </ul>
@@ -55,29 +55,50 @@
         </nav>
 
 
-        <div class="conteudo row">
-            <div class="col">
-                <div class="row">
-                    <div class="col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
-                        <h4 class="cardTitle">Receita</h4>
+        <div class="conteudo">
+            <div class=" d-flex">
+                <div class="row d-flex justify-content-between">
 
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">Receita</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
                     </div>
-                    <br>
-                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
-                        <h4 class="cardTitle">Receita</h4>
-
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">A pagar</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
                     </div>
-                    <br>
-                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
-                        <h4 class="cardTitle">Receita</h4>
-
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">Cartão</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
                     </div>
-                    <br>
-                    <div class=" col-12 col-sm-3 col-md-4 col-lg-3" id="cartao">
-                        <h4 class="cardTitle">Receita</h4>
-
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">Gasto Total</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
                     </div>
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">Receita</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-4 mb-3" id="cartao">
+                        <h4 class="cardTitle mb-2">Receita</h4>
+                        <div class="dentrocartao">
+                            <p>R$2.000,00</p>
+                        </div>
+                    </div>                                    
                 </div>
+                <br>
+               
+               
 
 
             </div>

@@ -1,0 +1,10 @@
+
+body{
+    background:linear-gradient(to right, rgba(255,0,0,0), rgb(3, 158, 24));
+}
+
+.divHeader{
+    background-color:#095e1e ;
+    text-align: center;
+    color: white;
+}
