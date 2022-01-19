@@ -16,46 +16,48 @@
 </head>
 
 <body>
+    <br><br>
 
-    <div class="container  ">
+    <header>
+        <div class="justify-content-center d-flex">
+            <h1 class="title animate__animated animate__zoomInDown"><strong>Bem Vindo Usuário</strong> </h1>
+        </div>
+    </header>
 
+    <div class="container">
 
-        <div class="container-fluid ">
-<br><br>
-            <div class="justify-content-center d-flex">
-                <h1 class="title animate__animated animate__zoomInDown"><strong>Bem Vindo Usuário</strong> </h1>
-            </div>
-            <br><br><br>
-            <div class="container-fluid d-flex navbar-nav-scrolls d-flex align-items-center justify-content-center  ">
-                <br>
-                <form class="form form-control-md d-flex " id="formulario" action="app/auth.proccess.php" method="POST">
-                    <div class="  ">
-                        <div class="  mb-3">
-                            <input type="hidden" name="IndexLogin" value="login">
-                            <label class="label-input" for="">
-                                <i class="fas fa-envelope icon "></i>
-                                <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
-                            </label>
-                        </div>
-                        <div class="  mb-3">
-                            <label class="label-input" for="">
-                                <i class="fas fa-key icon"></i>
-                                <input class=" form-control" type="password" name="psswd" placeholder="Senha"
-                                    required="">
-                            </label>
-                        </div>
-                        <br><br>
-                        <div>
-                            <input class="btn btn-primary d-grid gap-2 col-6 mx-auto" type="submit"></input>
-                        </div>
+        
+        
+        <br><br><br>
+
+        <br>
+        <form class="d-flex justify-content-evenly align-content-center form form-control" id="formulario" action="app/auth.proccess.php" method="POST">
+            <div class=" row ">
+                <div class="col">
+                    <div class="  mb-3">
+                        <input type="hidden" name="IndexLogin" value="login">
+                        <label class="label-input" for="">
+                            <i class="fas fa-envelope icon "></i>
+                            <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
+                        </label>
+                    </div>
+                    <div class="  mb-3">
+                        <label class="label-input" for="">
+                            <i class="fas fa-key icon"></i>
+                            <input class=" form-control" type="password" name="psswd" placeholder="Senha" required="">
+                        </label>
                     </div>
                     <br><br>
+                    <div>
+                        <input class="btn btn-primary d-grid gap-2 col-6 mx-auto" type="submit" value="Entrar"></input>
+                    </div>
+                </div>
+                </div>               
+            <br>
+        </form>
 
-                  
-                </form>
-
-            </div>
-        </div>
+    </div>
+    </div>
     </div>
 
 
